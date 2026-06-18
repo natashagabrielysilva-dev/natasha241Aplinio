@@ -104,6 +104,25 @@
             color: #a0a0a0;
         }
 
+        /* Container responsivo para o vídeo do YouTube */
+        .video-container {
+            position: relative;
+            padding-bottom: 56.25%; /* Proporção 16:9 */
+            padding-top: 30px; 
+            height: 0; 
+            overflow: hidden;
+            margin-top: 20px;
+        }
+
+        .video-container iframe {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            border: 0;
+        }
+
         /* Rodapé */
         footer {
             text-align: center;
@@ -144,6 +163,14 @@
             <h2>Estética e Elementos Visuais</h2>
             <p>Embora a subcultura gótica seja predominantemente musical e comportamental, a estética visual é uma de suas manifestações mais conhecidas. O visual gótico tradicional é frequentemente caracterizado por:</p>
             <p>Roupas majoritariamente pretas, maquiagem carregada com delineador e batom escuro, cabelos desfiados ou tingidos, além de referências à moda vitoriana, eduardiana e elementos religiosos ou ocultistas (como crucifixos e ankhs) ressignificados como adornos artísticos.</p>
+        </section>
+
+        <section id="conteudo-visual">
+            <h2>Audiovisual e Documentários</h2>
+            <p>Assista abaixo a conteúdos e materiais relacionados à história, estética e evolução do movimento gótico ao longo das décadas:</p>
+            <div class="video-container">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/tUmoX_btYLA?si=PDuDZiwqnq85izKv" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            </div>
         </section>
     </main>
 
